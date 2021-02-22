@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: Test thing
-Implementation-Version: 0.0.1
-Built-By: harrydrummond
-Built-Date: Mon Feb 22 14:56:00 GMT 2021
-Built-JDK: 15.0.1
-Built-Gradle: 6.7
-Class-Path: protapi_plugin.jar protapi_core.jar
-
