@@ -1,0 +1,7 @@
+name: MailMe
+version: 1.5.10
+main: com.haroldstudios.protapi.plugin.ProtAPIPlugin
+api-version: 1.17
+authors: [Harry0198]
+description: Bridge Module for Protection Plugins
+website: https://wiki.haroldstudios.com

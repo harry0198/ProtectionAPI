@@ -1,0 +1,4 @@
+rootProject.name = 'ProtectionAPI'
+
+include ':protapi_core'
+include ':protapi_plugin'

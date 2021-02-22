@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id "com.github.johnrengelman.shadow" version "5.2.0"
+}
+
+// We only publish the fat jar as a stand alone artifact.
+shadowJar {
+    baseName = 'ProtectionAPI'
+    classifier = ''
+
+}
+
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+
+}
+
+dependencies {
+    compile subprojects
+}
+
+subprojects {
+    apply plugin: 'java'
+    description = """ The multi project test project """
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        compileOnly 'org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT'
+        testCompile group: 'junit', name: 'junit', version:'4.11'
+    }
+}

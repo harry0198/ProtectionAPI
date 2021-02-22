@@ -1,0 +1,2 @@
+com/haroldstudios/protapi/plugin/Placeholder.java
+ com.haroldstudios.protapi.plugin.Placeholder
