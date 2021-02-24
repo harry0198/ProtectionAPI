@@ -1,2 +1,19 @@
-com/haroldstudios/protapi/core/Placeholder.java
- com.haroldstudios.protapi.core.Placeholder
+com/haroldstudios/protapi/core/components/QuickSort.java
+ com.haroldstudios.protapi.core.components.QuickSort
+com/haroldstudios/protapi/core/octree/Octane.java
+ com.haroldstudios.protapi.core.octree.Octane
+com/haroldstudios/protapi/core/RegionFlag.java
+ com.haroldstudios.protapi.core.RegionFlag
+com/haroldstudios/protapi/core/Point3D.java
+ com.haroldstudios.protapi.core.Point3D
+com/haroldstudios/protapi/core/Region.java
+ com.haroldstudios.protapi.core.Region
+com/haroldstudios/protapi/core/components/MathUtil.java
+ com.haroldstudios.protapi.core.components.MathUtil
+com/haroldstudios/protapi/core/HyperPlane3.java
+ com.haroldstudios.protapi.core.HyperPlane3
+com/haroldstudios/protapi/core/ProtectionAPI.java
+ com.haroldstudios.protapi.core.ProtectionAPI
+com/haroldstudios/protapi/core/octree/Octree.java
+ com.haroldstudios.protapi.core.octree.Octree
+ com.haroldstudios.protapi.core.octree.Octree$Node

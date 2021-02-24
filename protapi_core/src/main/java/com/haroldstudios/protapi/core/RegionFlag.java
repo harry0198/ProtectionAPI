@@ -1,4 +1,5 @@
 package com.haroldstudios.protapi.core;
 
-public class Placeholder {
+public enum RegionFlag {
+
 }
