@@ -1,8 +1,22 @@
 package com.haroldstudios.protapi.core;
 
 import com.haroldstudios.protapi.core.octree.Octane;
+import org.bukkit.entity.Player;
 
+/*
+The main class to interact with the features of the API.
+Under no circumstances should collections of 'Region' objects gathered from other
+plugins be stored locally to memory. Reason being, it is unknown how
+many regions a single server may have and thousands of objects stored may
+make a server become unresponsive / slow. These are also not updated. The
+region objects received are a snapshot at the time of gathering.
+ */
 public final class ProtectionAPI {
+
+    public boolean canBuild(final Player player) {
+        // Todo check against enabled pl
+        return false;
+    }
 
     /**
      * Checks if a cuboid overlaps another octane

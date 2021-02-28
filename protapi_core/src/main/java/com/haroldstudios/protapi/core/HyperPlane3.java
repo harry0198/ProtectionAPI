@@ -17,6 +17,7 @@ import java.util.List;
 public final class HyperPlane3 {
 
     private final ImmutableList<Point3D> points;
+    // lazy init
     private Point3D min, max;
     private Area area;
 

@@ -26,6 +26,4 @@ public class SortingTest {
         QuickSort.sort(num, 0, num.length -1);
         Assert.assertArrayEquals(new int[]{-7,-6,-2,-1,3,4,5,8}, num);
     }
-
-
 }
